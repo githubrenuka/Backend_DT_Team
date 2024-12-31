@@ -1,0 +1,31 @@
+Backend:
+>npm init -y :Initialise the json 
+
+>index.js is the gate way of the application 
+
+Dependencies: 
+     ->express
+     ->mongoose
+     ->dotenv
+     ->body-parser
+     ->nodemon
+
+//to install above Dependencies use "npm install express mongoose dotenv body-parser nodemon"
+//nodemon will save the changes continuously
+
+create the server
+Server created
+
+Connect to the database:
+Database connected\
+
+create an API , for that we need
+.Models:
+ >Admin.js //create
+   ->create username,password,email
+ ->Members.js// create
+   -> create firstname,designation,skills,image
+   //to store the details of the Admin schema we need tables in the database ,for we have to create AdminControllers in Controller
+.Controllers 
+  //install jsonwebtoken bcryptjs
+.Routes
